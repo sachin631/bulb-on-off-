@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+ <h1>electricity bulb</h1>
+
+<button onclick="fn1()">bulb on</button>
+<img id="myimage" src="bulboff.JPG" >
+
+<button onclick="fn2()">bulb off</button>
+<script src="jv.js"></script>
+</body>
+</html>
+// >>>>>>>>>>>>javascript code is given below>>>>
+function fn1()
+{
+    document.getElementById('myimage').src="bulbon.jpg";
+}
+function fn2()
+{
+    document.getElementById('myimage').src="bulboff.jpg";
+}
